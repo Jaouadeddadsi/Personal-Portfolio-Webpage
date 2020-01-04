@@ -1,0 +1,197 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0;
+  margin: 0;
+}
+
+
+#nav-bar  {
+  margin: 0;
+  background: rgb(236, 8, 77);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: flex;
+  width: 96vw;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
+}
+#nav-bar li {
+  padding: 20px;
+  font-size: 1.3rem;
+  height: 100%;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+#nav-bar li:hover {
+  background-color: blue;
+}
+
+header#self-presentation {
+  margin-top: 50px;
+  height: 550px;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+header#self-presentation .name {
+  font-size: 3rem;
+
+}
+header#self-presentation .job {
+  color: rgb(236, 8, 77);
+  font-size: 1.5rem;
+  font-weight: 20;
+  margin-top: -20px;
+  padding-top: 0px;
+}
+
+/* third */
+#main-contant {
+  background-color: rgba(42, 56, 106, 1);
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.content-title {
+  padding-top: 100px;
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto
+}
+
+.content-title hr {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.project-container {
+  margin-top: 50px;
+  display: -webkit-box;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.project {
+  margin: 20px;
+  flex-shrink: 2;
+}
+
+.project-img {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 0;
+  margin-bottom: -5px;
+}
+
+.project-title {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 20px;
+  margin-top: 0;
+}
+.project-title > span {
+  color: orange;
+  visibility: hidden;
+}
+
+.project:hover span {
+  visibility: visible;
+}
+
+@media (max-width: 600px) {
+  .project-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+button {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  border: none;
+  padding:10px 20px;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(236, 8, 77);
+}
+
+button:hover span {
+  margin-left: 5px;
+}
+
+footer h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 3rem;
+}
+
+footer > p {
+  text-align: center;
+  margin-top: -30px;
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.social-media {
+  padding-bottom: 50px;
+  border-bottom: 3px solid rgb(236, 8, 77);
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.item {
+  margin: 30px;
+}
+
+.item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.item:hover {
+  position: relative;
+  top: 5px;
+}
+
+.last-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+}
